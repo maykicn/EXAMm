@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 196, 201);;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+ header{
+    background-color: white;
+    border-bottom: 1px solid rgb(200, 196, 196) ;
+    
+ }
+ header h2{
+     margin: 0;
+ }
+
+
+.sidebar{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 40vh;
+    height: 100vh;
+    margin: 0;
+}
+li{
+    border-bottom: 1px solid rgb(200, 196, 196) ;
+    list-style-type: none;
+}
+.left{
+    height: 5vh;
+}
+.left a{
+    
+}
+main{
+    display: flex;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid green;
+    width: 100%;
+}
+.container{
+    
+    margin: auto auto;
+    width: 80%;
+    border: 1px solid red;
+    height: 23%;
+    background-color: white;
+}
+.content{
+    margin-left: 10px;
+}
+
+
+.right{
+    width: 20vh;
+}
+
+.advlist{
+border: 1px solid red;
+margin: 10px 10px;
+text-align: center;
+}
